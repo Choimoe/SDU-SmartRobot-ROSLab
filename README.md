@@ -28,6 +28,7 @@ Author: Choimoe
     ```bash
     mkdir ROS
     mamba create -n ros_env python=3.11
+    conda config --env --add channels robostack-noetic
     mamba install ros-noetic-desktop
     ```
     
