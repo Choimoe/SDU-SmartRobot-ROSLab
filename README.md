@@ -210,6 +210,12 @@ rostopic echo /turtle1/cmd_vel
 rosrun rqt_graph rqt_graph
 ```
 
+使用 `rqt_plot` 可以展示小海龟的位置曲线：
+
+```bash
+rosrun rqt_plot rqt_plot
+```
+
 使用 `rostopic pub` 可以发布稳定的命令流：
 
 ```bash
